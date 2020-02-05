@@ -4,5 +4,7 @@
 surplex.schischkin.ru {
     encode gzip
     templates
-    file_server /var/www/html
+    file_server browse {
+        root /var/www/html
+    }
 }
