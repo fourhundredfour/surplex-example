@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: surplex-example
-        image: 387555065853.dkr.ecr.eu-central-1.amazonaws.com/schischkin/surplex-example:latest
+        image: docker.pkg.github.com/fourhundredfour/surplex-example/surplex-example:latest
         ports:
         - containerPort: 80
         - containerPort: 443
