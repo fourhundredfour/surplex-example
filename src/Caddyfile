@@ -1,0 +1,8 @@
+{
+    email daniel@schischkin.ru
+}
+surplex.schischkin.ru {
+    encode gzip
+    templates
+    file_server /var/www/html
+}
