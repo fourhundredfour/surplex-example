@@ -1,5 +1,4 @@
-FROM caddy/caddy:alpine
+FROM nginx:latest
 
-WORKDIR /var/www/html
-COPY Caddyfile /etc/caddy/Caddyfile
+WORKDIR /usr/share/nginx/html
 COPY index.html .

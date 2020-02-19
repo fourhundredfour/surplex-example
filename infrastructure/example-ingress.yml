@@ -1,0 +1,13 @@
+apiVersion: extensions/v1beta1
+type: Ingress
+metadata:
+  name: surplex-ingress
+spec:
+  rules:
+    - host: surplex.schischkin.ru
+      http:
+        paths:
+          - path: /
+            backend:
+              serviceName: surplex-example
+              servicePort: 80
